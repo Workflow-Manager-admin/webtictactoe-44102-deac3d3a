@@ -23,3 +23,743 @@ modules by path ./.ve/ 15.1 KiB
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
 webpack 5.99.9 compiled successfully in 1241 ms
+assets by path *.js 1.39 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.f3eeded08aca4b1ef116.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 7.94 KiB [emitted]
+asset main.f3eeded08aca4b1ef116.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.39 MiB = bundle.js 1.39 MiB main.f3eeded08aca4b1ef116.hot-update.js 854 bytes
+cached modules 1.26 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+
+ERROR in Error: Child compilation failed:
+  Module build failed (from ./node_modules/html-webpack-plugin/lib/loader.js):
+  SyntaxError: Unexpected token '%'
+      at Function (<anonymous>)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/template.js:259:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:13:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/attempt.js:29:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:15:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/_overRest.js:32:12
+      at template (/home/kavia/workspace/code-generation/webtictactoe-44102-deac  3d3a/webtictactoe/node_modules/lodash/template.js:258:16)
+      at module.exports (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/html-webpack-plugin/lib/loader.js:37:20)
+  ModuleBuildError: Module build failed (from ./node_modules/html-webpack-plugin  /lib/loader.js):
+  SyntaxError: Unexpected token '%'
+      at Function (<anonymous>)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/template.js:259:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:13:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/attempt.js:29:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:15:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/_overRest.js:32:12
+      at template (/home/kavia/workspace/code-generation/webtictactoe-44102-deac  3d3a/webtictactoe/node_modules/lodash/template.js:258:16)
+      at module.exports (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/html-webpack-plugin/lib/loader.js:37:20)
+      at processResult (/home/kavia/workspace/code-generation/webtictactoe-44102  -deac3d3a/webtictactoe/node_modules/webpack/lib/NormalModule.js:936:19)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/webpack/lib/NormalModule.js:1084:5
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:400:11
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:252:18
+      at runSyncOrAsync (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/loader-runner/lib/LoaderRunner.js:156:3)
+      at iterateNormalLoaders (/home/kavia/workspace/code-generation/webtictacto  e-44102-deac3d3a/webtictactoe/node_modules/loader-runner/lib/LoaderRunner.js:2  51:2)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/webpack/lib/NormalModule.js:1039:15
+      at Array.eval (eval at create (/home/kavia/workspace/code-generation/webti  ctactoe-44102-deac3d3a/webtictactoe/node_modules/tapable/lib/HookCodeFactory.j  s:33:10), <anonymous>:12:1)
+      at runCallbacks (/home/kavia/workspace/code-generation/webtictactoe-44102-  deac3d3a/webtictactoe/node_modules/enhanced-resolve/lib/CachedInputFileSystem.  js:45:15)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:279:5
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/graceful-fs/graceful-fs.js:123:16
+      at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read  _file_context:68:3)
+  
+  - Function
+  
+  - template.js:259 
+    [webtictactoe]/[lodash]/template.js:259:12
+  
+  - _apply.js:13 apply
+    [webtictactoe]/[lodash]/_apply.js:13:25
+  
+  - attempt.js:29 
+    [webtictactoe]/[lodash]/attempt.js:29:12
+  
+  - _apply.js:15 apply
+    [webtictactoe]/[lodash]/_apply.js:15:25
+  
+  - _overRest.js:32 
+    [webtictactoe]/[lodash]/_overRest.js:32:12
+  
+  - template.js:258 template
+    [webtictactoe]/[lodash]/template.js:258:16
+  
+  - loader.js:37 module.exports
+    [webtictactoe]/[html-webpack-plugin]/lib/loader.js:37:20
+  
+  - ModuleBuildError: Module build failed (from ./node_modules/html-webpack-plug    in/lib/loader.js):
+  
+  - SyntaxError: Unexpected token '%'
+  
+  - Function
+  
+  - template.js:259 
+    [webtictactoe]/[lodash]/template.js:259:12
+  
+  - _apply.js:13 apply
+    [webtictactoe]/[lodash]/_apply.js:13:25
+  
+  - attempt.js:29 
+    [webtictactoe]/[lodash]/attempt.js:29:12
+  
+  - _apply.js:15 apply
+    [webtictactoe]/[lodash]/_apply.js:15:25
+  
+  - _overRest.js:32 
+    [webtictactoe]/[lodash]/_overRest.js:32:12
+  
+  - template.js:258 template
+    [webtictactoe]/[lodash]/template.js:258:16
+  
+  - loader.js:37 module.exports
+    [webtictactoe]/[html-webpack-plugin]/lib/loader.js:37:20
+  
+  - NormalModule.js:936 processResult
+    [webtictactoe]/[webpack]/lib/NormalModule.js:936:19
+  
+  - NormalModule.js:1084 
+    [webtictactoe]/[webpack]/lib/NormalModule.js:1084:5
+  
+  - LoaderRunner.js:400 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:400:11
+  
+  - LoaderRunner.js:252 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:252:18
+  
+  - LoaderRunner.js:156 runSyncOrAsync
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:156:3
+  
+  - LoaderRunner.js:251 iterateNormalLoaders
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:251:2
+  
+  - LoaderRunner.js:224 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:224:4
+  
+  - NormalModule.js:1039 
+    [webtictactoe]/[webpack]/lib/NormalModule.js:1039:15
+  
+  
+  - CachedInputFileSystem.js:45 runCallbacks
+    [webtictactoe]/[enhanced-resolve]/lib/CachedInputFileSystem.js:45:15
+  
+  - CachedInputFileSystem.js:279 
+    [webtictactoe]/[enhanced-resolve]/lib/CachedInputFileSystem.js:279:5
+  
+  - graceful-fs.js:123 
+    [webtictactoe]/[graceful-fs]/graceful-fs.js:123:16
+  
+  - read_file_context:68 FSReqCallback.readFileAfterClose [as oncomplete]
+    node:internal/fs/read_file_context:68:3
+  
+  - child-compiler.js:211 
+    [webtictactoe]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+  
+  - Compiler.js:625 finalCallback
+    [webtictactoe]/[webpack]/lib/Compiler.js:625:5
+  
+  - Compiler.js:661 
+    [webtictactoe]/[webpack]/lib/Compiler.js:661:11
+  
+  - Compiler.js:1347 
+    [webtictactoe]/[webpack]/lib/Compiler.js:1347:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1343 
+    [webtictactoe]/[webpack]/lib/Compiler.js:1343:33
+  
+  - Compilation.js:3061 finalCallback
+    [webtictactoe]/[webpack]/lib/Compilation.js:3061:11
+  
+  - Compilation.js:3404 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3404:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3397 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3397:38
+  
+  
+  - Compilation.js:562 fn
+    [webtictactoe]/[webpack]/lib/Compilation.js:562:9
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3361 cont
+    [webtictactoe]/[webpack]/lib/Compilation.js:3361:34
+  
+  - Compilation.js:3417 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3417:10
+  
+  - async.js:3485 symbolIterator
+    [webtictactoe]/[neo-async]/async.js:3485:9
+  
+  - async.js:3527 done
+    [webtictactoe]/[neo-async]/async.js:3527:9
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack 5.99.9 compiled with 2 errors in 293 ms
+assets by path *.js 1.39 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.1ed54a1233a8c937e046.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 7.94 KiB [emitted]
+asset main.1ed54a1233a8c937e046.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.39 MiB = bundle.js 1.39 MiB main.1ed54a1233a8c937e046.hot-update.js 854 bytes
+cached modules 1.26 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+
+ERROR in Error: Child compilation failed:
+  Module build failed (from ./node_modules/html-webpack-plugin/lib/loader.js):
+  SyntaxError: Unexpected token '<'
+      at Function (<anonymous>)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/template.js:259:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:13:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/attempt.js:29:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:15:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/_overRest.js:32:12
+      at template (/home/kavia/workspace/code-generation/webtictactoe-44102-deac  3d3a/webtictactoe/node_modules/lodash/template.js:258:16)
+      at module.exports (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/html-webpack-plugin/lib/loader.js:37:20)
+  ModuleBuildError: Module build failed (from ./node_modules/html-webpack-plugin  /lib/loader.js):
+  SyntaxError: Unexpected token '<'
+      at Function (<anonymous>)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/template.js:259:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:13:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/attempt.js:29:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:15:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/_overRest.js:32:12
+      at template (/home/kavia/workspace/code-generation/webtictactoe-44102-deac  3d3a/webtictactoe/node_modules/lodash/template.js:258:16)
+      at module.exports (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/html-webpack-plugin/lib/loader.js:37:20)
+      at processResult (/home/kavia/workspace/code-generation/webtictactoe-44102  -deac3d3a/webtictactoe/node_modules/webpack/lib/NormalModule.js:936:19)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/webpack/lib/NormalModule.js:1084:5
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:400:11
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:252:18
+      at runSyncOrAsync (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/loader-runner/lib/LoaderRunner.js:156:3)
+      at iterateNormalLoaders (/home/kavia/workspace/code-generation/webtictacto  e-44102-deac3d3a/webtictactoe/node_modules/loader-runner/lib/LoaderRunner.js:2  51:2)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/webpack/lib/NormalModule.js:1039:15
+      at Array.eval (eval at create (/home/kavia/workspace/code-generation/webti  ctactoe-44102-deac3d3a/webtictactoe/node_modules/tapable/lib/HookCodeFactory.j  s:33:10), <anonymous>:12:1)
+      at runCallbacks (/home/kavia/workspace/code-generation/webtictactoe-44102-  deac3d3a/webtictactoe/node_modules/enhanced-resolve/lib/CachedInputFileSystem.  js:45:15)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:279:5
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/graceful-fs/graceful-fs.js:123:16
+      at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read  _file_context:68:3)
+  
+  - Function
+  
+  - template.js:259 
+    [webtictactoe]/[lodash]/template.js:259:12
+  
+  - _apply.js:13 apply
+    [webtictactoe]/[lodash]/_apply.js:13:25
+  
+  - attempt.js:29 
+    [webtictactoe]/[lodash]/attempt.js:29:12
+  
+  - _apply.js:15 apply
+    [webtictactoe]/[lodash]/_apply.js:15:25
+  
+  - _overRest.js:32 
+    [webtictactoe]/[lodash]/_overRest.js:32:12
+  
+  - template.js:258 template
+    [webtictactoe]/[lodash]/template.js:258:16
+  
+  - loader.js:37 module.exports
+    [webtictactoe]/[html-webpack-plugin]/lib/loader.js:37:20
+  
+  - ModuleBuildError: Module build failed (from ./node_modules/html-webpack-plug    in/lib/loader.js):
+  
+  - SyntaxError: Unexpected token '<'
+  
+  - Function
+  
+  - template.js:259 
+    [webtictactoe]/[lodash]/template.js:259:12
+  
+  - _apply.js:13 apply
+    [webtictactoe]/[lodash]/_apply.js:13:25
+  
+  - attempt.js:29 
+    [webtictactoe]/[lodash]/attempt.js:29:12
+  
+  - _apply.js:15 apply
+    [webtictactoe]/[lodash]/_apply.js:15:25
+  
+  - _overRest.js:32 
+    [webtictactoe]/[lodash]/_overRest.js:32:12
+  
+  - template.js:258 template
+    [webtictactoe]/[lodash]/template.js:258:16
+  
+  - loader.js:37 module.exports
+    [webtictactoe]/[html-webpack-plugin]/lib/loader.js:37:20
+  
+  - NormalModule.js:936 processResult
+    [webtictactoe]/[webpack]/lib/NormalModule.js:936:19
+  
+  - NormalModule.js:1084 
+    [webtictactoe]/[webpack]/lib/NormalModule.js:1084:5
+  
+  - LoaderRunner.js:400 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:400:11
+  
+  - LoaderRunner.js:252 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:252:18
+  
+  - LoaderRunner.js:156 runSyncOrAsync
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:156:3
+  
+  - LoaderRunner.js:251 iterateNormalLoaders
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:251:2
+  
+  - LoaderRunner.js:224 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:224:4
+  
+  - NormalModule.js:1039 
+    [webtictactoe]/[webpack]/lib/NormalModule.js:1039:15
+  
+  
+  - CachedInputFileSystem.js:45 runCallbacks
+    [webtictactoe]/[enhanced-resolve]/lib/CachedInputFileSystem.js:45:15
+  
+  - CachedInputFileSystem.js:279 
+    [webtictactoe]/[enhanced-resolve]/lib/CachedInputFileSystem.js:279:5
+  
+  - graceful-fs.js:123 
+    [webtictactoe]/[graceful-fs]/graceful-fs.js:123:16
+  
+  - read_file_context:68 FSReqCallback.readFileAfterClose [as oncomplete]
+    node:internal/fs/read_file_context:68:3
+  
+  - child-compiler.js:211 
+    [webtictactoe]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+  
+  - Compiler.js:625 finalCallback
+    [webtictactoe]/[webpack]/lib/Compiler.js:625:5
+  
+  - Compiler.js:661 
+    [webtictactoe]/[webpack]/lib/Compiler.js:661:11
+  
+  - Compiler.js:1347 
+    [webtictactoe]/[webpack]/lib/Compiler.js:1347:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1343 
+    [webtictactoe]/[webpack]/lib/Compiler.js:1343:33
+  
+  - Compilation.js:3061 finalCallback
+    [webtictactoe]/[webpack]/lib/Compilation.js:3061:11
+  
+  - Compilation.js:3404 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3404:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3397 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3397:38
+  
+  
+  - Compilation.js:562 fn
+    [webtictactoe]/[webpack]/lib/Compilation.js:562:9
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3361 cont
+    [webtictactoe]/[webpack]/lib/Compilation.js:3361:34
+  
+  - Compilation.js:3417 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3417:10
+  
+  - async.js:3485 symbolIterator
+    [webtictactoe]/[neo-async]/async.js:3485:9
+  
+  - async.js:3527 done
+    [webtictactoe]/[neo-async]/async.js:3527:9
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack 5.99.9 compiled with 2 errors in 122 ms
+assets by path *.js 1.39 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.57b1d275242d84e09fd3.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 7.94 KiB [emitted]
+asset main.57b1d275242d84e09fd3.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.39 MiB = bundle.js 1.39 MiB main.57b1d275242d84e09fd3.hot-update.js 854 bytes
+cached modules 1.26 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+
+ERROR in Error: Child compilation failed:
+  Module build failed (from ./node_modules/html-webpack-plugin/lib/loader.js):
+  SyntaxError: Unexpected token '.'
+      at Function (<anonymous>)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/template.js:259:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:13:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/attempt.js:29:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:15:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/_overRest.js:32:12
+      at template (/home/kavia/workspace/code-generation/webtictactoe-44102-deac  3d3a/webtictactoe/node_modules/lodash/template.js:258:16)
+      at module.exports (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/html-webpack-plugin/lib/loader.js:37:20)
+  ModuleBuildError: Module build failed (from ./node_modules/html-webpack-plugin  /lib/loader.js):
+  SyntaxError: Unexpected token '.'
+      at Function (<anonymous>)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/template.js:259:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:13:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/attempt.js:29:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:15:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/_overRest.js:32:12
+      at template (/home/kavia/workspace/code-generation/webtictactoe-44102-deac  3d3a/webtictactoe/node_modules/lodash/template.js:258:16)
+      at module.exports (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/html-webpack-plugin/lib/loader.js:37:20)
+      at processResult (/home/kavia/workspace/code-generation/webtictactoe-44102  -deac3d3a/webtictactoe/node_modules/webpack/lib/NormalModule.js:936:19)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/webpack/lib/NormalModule.js:1084:5
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:400:11
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:252:18
+      at runSyncOrAsync (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/loader-runner/lib/LoaderRunner.js:156:3)
+      at iterateNormalLoaders (/home/kavia/workspace/code-generation/webtictacto  e-44102-deac3d3a/webtictactoe/node_modules/loader-runner/lib/LoaderRunner.js:2  51:2)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/webpack/lib/NormalModule.js:1039:15
+      at Array.eval (eval at create (/home/kavia/workspace/code-generation/webti  ctactoe-44102-deac3d3a/webtictactoe/node_modules/tapable/lib/HookCodeFactory.j  s:33:10), <anonymous>:12:1)
+      at runCallbacks (/home/kavia/workspace/code-generation/webtictactoe-44102-  deac3d3a/webtictactoe/node_modules/enhanced-resolve/lib/CachedInputFileSystem.  js:45:15)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:279:5
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/graceful-fs/graceful-fs.js:123:16
+      at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read  _file_context:68:3)
+  
+  - Function
+  
+  - template.js:259 
+    [webtictactoe]/[lodash]/template.js:259:12
+  
+  - _apply.js:13 apply
+    [webtictactoe]/[lodash]/_apply.js:13:25
+  
+  - attempt.js:29 
+    [webtictactoe]/[lodash]/attempt.js:29:12
+  
+  - _apply.js:15 apply
+    [webtictactoe]/[lodash]/_apply.js:15:25
+  
+  - _overRest.js:32 
+    [webtictactoe]/[lodash]/_overRest.js:32:12
+  
+  - template.js:258 template
+    [webtictactoe]/[lodash]/template.js:258:16
+  
+  - loader.js:37 module.exports
+    [webtictactoe]/[html-webpack-plugin]/lib/loader.js:37:20
+  
+  - ModuleBuildError: Module build failed (from ./node_modules/html-webpack-plug    in/lib/loader.js):
+  
+  - SyntaxError: Unexpected token '.'
+  
+  - Function
+  
+  - template.js:259 
+    [webtictactoe]/[lodash]/template.js:259:12
+  
+  - _apply.js:13 apply
+    [webtictactoe]/[lodash]/_apply.js:13:25
+  
+  - attempt.js:29 
+    [webtictactoe]/[lodash]/attempt.js:29:12
+  
+  - _apply.js:15 apply
+    [webtictactoe]/[lodash]/_apply.js:15:25
+  
+  - _overRest.js:32 
+    [webtictactoe]/[lodash]/_overRest.js:32:12
+  
+  - template.js:258 template
+    [webtictactoe]/[lodash]/template.js:258:16
+  
+  - loader.js:37 module.exports
+    [webtictactoe]/[html-webpack-plugin]/lib/loader.js:37:20
+  
+  - NormalModule.js:936 processResult
+    [webtictactoe]/[webpack]/lib/NormalModule.js:936:19
+  
+  - NormalModule.js:1084 
+    [webtictactoe]/[webpack]/lib/NormalModule.js:1084:5
+  
+  - LoaderRunner.js:400 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:400:11
+  
+  - LoaderRunner.js:252 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:252:18
+  
+  - LoaderRunner.js:156 runSyncOrAsync
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:156:3
+  
+  - LoaderRunner.js:251 iterateNormalLoaders
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:251:2
+  
+  - LoaderRunner.js:224 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:224:4
+  
+  - NormalModule.js:1039 
+    [webtictactoe]/[webpack]/lib/NormalModule.js:1039:15
+  
+  
+  - CachedInputFileSystem.js:45 runCallbacks
+    [webtictactoe]/[enhanced-resolve]/lib/CachedInputFileSystem.js:45:15
+  
+  - CachedInputFileSystem.js:279 
+    [webtictactoe]/[enhanced-resolve]/lib/CachedInputFileSystem.js:279:5
+  
+  - graceful-fs.js:123 
+    [webtictactoe]/[graceful-fs]/graceful-fs.js:123:16
+  
+  - read_file_context:68 FSReqCallback.readFileAfterClose [as oncomplete]
+    node:internal/fs/read_file_context:68:3
+  
+  - child-compiler.js:211 
+    [webtictactoe]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+  
+  - Compiler.js:625 finalCallback
+    [webtictactoe]/[webpack]/lib/Compiler.js:625:5
+  
+  - Compiler.js:661 
+    [webtictactoe]/[webpack]/lib/Compiler.js:661:11
+  
+  - Compiler.js:1347 
+    [webtictactoe]/[webpack]/lib/Compiler.js:1347:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1343 
+    [webtictactoe]/[webpack]/lib/Compiler.js:1343:33
+  
+  - Compilation.js:3061 finalCallback
+    [webtictactoe]/[webpack]/lib/Compilation.js:3061:11
+  
+  - Compilation.js:3404 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3404:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3397 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3397:38
+  
+  
+  - Compilation.js:562 fn
+    [webtictactoe]/[webpack]/lib/Compilation.js:562:9
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3361 cont
+    [webtictactoe]/[webpack]/lib/Compilation.js:3361:34
+  
+  - Compilation.js:3417 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3417:10
+  
+  - async.js:3485 symbolIterator
+    [webtictactoe]/[neo-async]/async.js:3485:9
+  
+  - async.js:3527 done
+    [webtictactoe]/[neo-async]/async.js:3527:9
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack 5.99.9 compiled with 2 errors in 149 ms
+assets by path *.js 1.39 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.216bda9718a45f131266.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 7.94 KiB [emitted]
+asset main.216bda9718a45f131266.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.39 MiB = bundle.js 1.39 MiB main.216bda9718a45f131266.hot-update.js 854 bytes
+cached modules 1.26 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+
+ERROR in Error: Child compilation failed:
+  Module build failed (from ./node_modules/html-webpack-plugin/lib/loader.js):
+  SyntaxError: Unexpected token ')'
+      at Function (<anonymous>)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/template.js:259:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:13:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/attempt.js:29:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:15:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/_overRest.js:32:12
+      at template (/home/kavia/workspace/code-generation/webtictactoe-44102-deac  3d3a/webtictactoe/node_modules/lodash/template.js:258:16)
+      at module.exports (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/html-webpack-plugin/lib/loader.js:37:20)
+  ModuleBuildError: Module build failed (from ./node_modules/html-webpack-plugin  /lib/loader.js):
+  SyntaxError: Unexpected token ')'
+      at Function (<anonymous>)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/template.js:259:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:13:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/attempt.js:29:12
+      at apply (/home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3  a/webtictactoe/node_modules/lodash/_apply.js:15:25)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/lodash/_overRest.js:32:12
+      at template (/home/kavia/workspace/code-generation/webtictactoe-44102-deac  3d3a/webtictactoe/node_modules/lodash/template.js:258:16)
+      at module.exports (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/html-webpack-plugin/lib/loader.js:37:20)
+      at processResult (/home/kavia/workspace/code-generation/webtictactoe-44102  -deac3d3a/webtictactoe/node_modules/webpack/lib/NormalModule.js:936:19)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/webpack/lib/NormalModule.js:1084:5
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:400:11
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:252:18
+      at runSyncOrAsync (/home/kavia/workspace/code-generation/webtictactoe-4410  2-deac3d3a/webtictactoe/node_modules/loader-runner/lib/LoaderRunner.js:156:3)
+      at iterateNormalLoaders (/home/kavia/workspace/code-generation/webtictacto  e-44102-deac3d3a/webtictactoe/node_modules/loader-runner/lib/LoaderRunner.js:2  51:2)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/loader-runner/lib/LoaderRunner.js:224:4
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/webpack/lib/NormalModule.js:1039:15
+      at Array.eval (eval at create (/home/kavia/workspace/code-generation/webti  ctactoe-44102-deac3d3a/webtictactoe/node_modules/tapable/lib/HookCodeFactory.j  s:33:10), <anonymous>:12:1)
+      at runCallbacks (/home/kavia/workspace/code-generation/webtictactoe-44102-  deac3d3a/webtictactoe/node_modules/enhanced-resolve/lib/CachedInputFileSystem.  js:45:15)
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:279:5
+      at /home/kavia/workspace/code-generation/webtictactoe-44102-deac3d3a/webti  ctactoe/node_modules/graceful-fs/graceful-fs.js:123:16
+      at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read  _file_context:68:3)
+  
+  - Function
+  
+  - template.js:259 
+    [webtictactoe]/[lodash]/template.js:259:12
+  
+  - _apply.js:13 apply
+    [webtictactoe]/[lodash]/_apply.js:13:25
+  
+  - attempt.js:29 
+    [webtictactoe]/[lodash]/attempt.js:29:12
+  
+  - _apply.js:15 apply
+    [webtictactoe]/[lodash]/_apply.js:15:25
+  
+  - _overRest.js:32 
+    [webtictactoe]/[lodash]/_overRest.js:32:12
+  
+  - template.js:258 template
+    [webtictactoe]/[lodash]/template.js:258:16
+  
+  - loader.js:37 module.exports
+    [webtictactoe]/[html-webpack-plugin]/lib/loader.js:37:20
+  
+  - ModuleBuildError: Module build failed (from ./node_modules/html-webpack-plug    in/lib/loader.js):
+  
+  - SyntaxError: Unexpected token ')'
+  
+  - Function
+  
+  - template.js:259 
+    [webtictactoe]/[lodash]/template.js:259:12
+  
+  - _apply.js:13 apply
+    [webtictactoe]/[lodash]/_apply.js:13:25
+  
+  - attempt.js:29 
+    [webtictactoe]/[lodash]/attempt.js:29:12
+  
+  - _apply.js:15 apply
+    [webtictactoe]/[lodash]/_apply.js:15:25
+  
+  - _overRest.js:32 
+    [webtictactoe]/[lodash]/_overRest.js:32:12
+  
+  - template.js:258 template
+    [webtictactoe]/[lodash]/template.js:258:16
+  
+  - loader.js:37 module.exports
+    [webtictactoe]/[html-webpack-plugin]/lib/loader.js:37:20
+  
+  - NormalModule.js:936 processResult
+    [webtictactoe]/[webpack]/lib/NormalModule.js:936:19
+  
+  - NormalModule.js:1084 
+    [webtictactoe]/[webpack]/lib/NormalModule.js:1084:5
+  
+  - LoaderRunner.js:400 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:400:11
+  
+  - LoaderRunner.js:252 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:252:18
+  
+  - LoaderRunner.js:156 runSyncOrAsync
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:156:3
+  
+  - LoaderRunner.js:251 iterateNormalLoaders
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:251:2
+  
+  - LoaderRunner.js:224 
+    [webtictactoe]/[loader-runner]/lib/LoaderRunner.js:224:4
+  
+  - NormalModule.js:1039 
+    [webtictactoe]/[webpack]/lib/NormalModule.js:1039:15
+  
+  
+  - CachedInputFileSystem.js:45 runCallbacks
+    [webtictactoe]/[enhanced-resolve]/lib/CachedInputFileSystem.js:45:15
+  
+  - CachedInputFileSystem.js:279 
+    [webtictactoe]/[enhanced-resolve]/lib/CachedInputFileSystem.js:279:5
+  
+  - graceful-fs.js:123 
+    [webtictactoe]/[graceful-fs]/graceful-fs.js:123:16
+  
+  - read_file_context:68 FSReqCallback.readFileAfterClose [as oncomplete]
+    node:internal/fs/read_file_context:68:3
+  
+  - child-compiler.js:211 
+    [webtictactoe]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+  
+  - Compiler.js:625 finalCallback
+    [webtictactoe]/[webpack]/lib/Compiler.js:625:5
+  
+  - Compiler.js:661 
+    [webtictactoe]/[webpack]/lib/Compiler.js:661:11
+  
+  - Compiler.js:1347 
+    [webtictactoe]/[webpack]/lib/Compiler.js:1347:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1343 
+    [webtictactoe]/[webpack]/lib/Compiler.js:1343:33
+  
+  - Compilation.js:3061 finalCallback
+    [webtictactoe]/[webpack]/lib/Compilation.js:3061:11
+  
+  - Compilation.js:3404 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3404:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3397 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3397:38
+  
+  
+  - Compilation.js:562 fn
+    [webtictactoe]/[webpack]/lib/Compilation.js:562:9
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webtictactoe]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3361 cont
+    [webtictactoe]/[webpack]/lib/Compilation.js:3361:34
+  
+  - Compilation.js:3417 
+    [webtictactoe]/[webpack]/lib/Compilation.js:3417:10
+  
+  - async.js:3485 symbolIterator
+    [webtictactoe]/[neo-async]/async.js:3485:9
+  
+  - async.js:3527 done
+    [webtictactoe]/[neo-async]/async.js:3527:9
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack 5.99.9 compiled with 2 errors in 106 ms
